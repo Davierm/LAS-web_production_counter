@@ -1,0 +1,49 @@
+body {color: #373635; background-color: #F0F0F0; font-family: Helvetica, Arial, sans-serif; width: 80%; margin: 0px auto; position: relative; width: 80%; max-width: 50em;}
+a         {text-decoration: none}
+a:link    {color: #373635}
+a:visited {color: #373635}
+a:active  {color: #373635}
+a:hover   {color: #D33C3C; text-decoration: none}
+a:link.gplus {color: #373635; font-size: x-large; font-weight: 200; margin-right: 2%;}
+a:link.facebook {color: #373635; font-size: x-large; font-weight: 200; margin-right: 2%;}
+a:link.zakazky {color: #373635; font-size: x-large; font-weight: 200; margin-right: 2%;}
+a:link.galerie {color: #373635; font-size: x-large; font-weight: 200; margin-right: 2%;}
+a:hover.gplus {color: #dc4e41; font-size: x-large; font-weight: 200;}
+a:hover.facebook {color:#3b5998; font-size: x-large; font-weight: 200;}
+a:hover.zakazky {color: #D33C3C; font-size: x-large; font-weight: 200;}
+a:hover.galerie {color: #D33C3C; font-size: x-large; font-weight: 200;}
+p {margin: 0px auto; position: relative; width: 80%;}
+ul {font-size: x-large; font-weight: 200; margin: 0px auto; position: relative; width: 80%;}
+.header {text-align: center; font-size: xx-large; font-weight: 200; margin-top: 25px}
+.body {text-align: center; margin-top: 12px; margin-bottom: 40px; font-family: Helvetica, Arial, sans-serif;}
+.bodybackground {background-color: white;}
+.links {text-align: center; font-size: x-large; font-weight: 200; border-top: solid 1px #373635; border-bottom: solid 1px #373635; max-width: 80%; margin: 0px auto; position: relative;; padding-top: .3em; padding-bottom: .3em; margin-top: 0px}
+.footer {text-align: center; font-size: large; margin-top: 12px; max-width: 80%; margin: 0px auto; position: relative;}
+.twitter {text-align: center; margin: 0px auto; position: relative; width: 80%;}
+button {
+    background-color: #555555;
+    border: 5px solid #555555;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    width: 75%;
+  }
+button:hover {
+    border: 5px solid #3b5998;
+    
+} 
+h1 {
+    text-align: center;
+    color: #373635;
+  }
+
+  
+  
+p {
+    text-align: center;
+    font-size: large;
+    color: #373635;
+  }

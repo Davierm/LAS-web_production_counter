@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <title>== Look and See ==</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="las.css" rel="stylesheet" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="apple-mobile-web-app-title" content="LAS">
+        <meta name="application-name" content="LAS">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+        <h1>LAS</h1>
+        <h1>Zbývající čas produkce</h1>
+        <br />
+        <p>Plánované množství dílů:
+        <input type="number" id="partplan" size="1" /> 
+        <br />
+        <br />
+        Vyrobené množství dílů:
+        <input type="number" id="partreal" size="1" />
+        <br />
+        <br />
+        Skutečný čas cyklu v sekundách:
+        <input type="number" id="cycletime" size="1" />
+        <br />
+        <br />
+        Počet kavit nástroje:
+        <input type="number" id="cavitnumber" size="1" />
+        </p>
+
+        <br />
+        <br />
+        <center><button id="donebutton"><b>Vypočítat</b></button></center>
+
+        <br />
+        <br />
+        <p>(C)2020 David Čermák aka DAVIERM</p>
+
+        <script src="las.js"></script>
+    </body>
+</html>
